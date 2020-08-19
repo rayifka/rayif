@@ -21,7 +21,8 @@
 	
 	<!--web font--><link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
 	<!--//web font-->
-
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	
 </head>
 
@@ -432,7 +433,7 @@
 			</div>
 			<div class="col-lg-7 mt-lg-0 mt-5 contact-right">
 				<h4 class="mb-4 editContent" style="outline: none; cursor: inherit;">Get In Touch</h4>
-				<form action="https://script.google.com/macros/s/AKfycbwUNObvPka0DCxsWP5-Ivm0iV97V-0c4UXJmO16/exec" method="post">
+				<form class="clearfix" role="form" id="submit-form" method="post" action="https://script.google.com/macros/s/AKfycbwUNObvPka0DCxsWP5-Ivm0iV97V-0c4UXJmO16/exec">
 					<div class="editContent" style="outline: none; cursor: inherit;">
 						<label class="editContent" style="outline: none; cursor: inherit;"><span class="fa mr-2 fa-user" aria-hidden="true" style="outline: none; cursor: inherit;"></span> Name</label>
 						<input type="text" name="Name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
